@@ -1,0 +1,74 @@
+:root {
+    --bg-color: #000000;
+    --text-color: #E5E5E5;
+    --accent-color: #00CC66; /* Emerald Green */
+    --warning-color: #DC143C; /* Crimson Red */
+    --card-bg: #1A1A1A;
+    --font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--accent-color);
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+h1 {
+    color: var(--accent-color);
+    font-size: 2em;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00FF80; /* Brighter Green */
+}
+
+.container {
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    font-size: 0.8em;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+.highlight {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.warning {
+    color: var(--warning-color);
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 10px;
+}
